@@ -1,42 +1,55 @@
 {
-  "data": {
-    "buchwald_amination.csv": {
-      "bytes": 1246868,
-      "sha256": "fe310b50897e97578078558909efc2edaa7b98ad8939b1caad740a718398ed62"
-    },
-    "concrete.csv": {
-      "bytes": 49694,
-      "sha256": "98072ff035fc27116079be5c0075c3144677c66877fb5d95a026f1404af80aa5"
-    },
-    "egfr_chembl203_ic50.csv": {
-      "bytes": 209026,
-      "sha256": "203d569ddacd41a0339c1ad146f86b67d0016d3b6a0216854663397ee7f0bb20"
-    },
-    "herg_chembl240_ic50.csv": {
-      "bytes": 240843,
-      "sha256": "710936a6fa3035a8d2058503d0c28c81f4499ba9048d7a9114dc1067e4a8e15d"
-    }
+ "data": {
+  "buchwald_amination.csv": {
+   "bytes": 1246868,
+   "sha256": "fe310b50897e97578078558909efc2edaa7b98ad8939b1caad740a718398ed62"
   },
-  "environment": {
-    "executable": "C:\\Users\\china\\miniconda3\\python.exe",
-    "platform": "Windows-11-10.0.26200-SP0",
-    "python": "3.13.13"
+  "concrete.csv": {
+   "bytes": 49694,
+   "sha256": "98072ff035fc27116079be5c0075c3144677c66877fb5d95a026f1404af80aa5"
   },
-  "package": {
-    "bench.py": "1bb57007e741698e6f191d046eee4080017215e7038d5e3f9a9638ebd53ef187",
-    "fs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "fs/acq.py": "6746b2cfac12f64498f2fa5670e3e00d48b743edb44778effd0dcdc5957580db",
-    "fs/audit.py": "79e814d47125abca9bb7cd5eca124570a739256a349068482b4bccb88bb00458",
-    "fs/campaign.py": "d93ae4f2384e1d7ae2abed57bf53fb9795599f111ee2a7bec52a0c86711c25fa",
-    "fs/data.py": "fcca849b6c44aeeeee83fb5d0b7bcbec6e1758b3cf93967165f5b4b353d22776",
-    "fs/feat.py": "cf4ce10d5a6464f96b1cb0130730c3f2e54f6bf97badad23d043f2f9fbbce460",
-    "fs/model.py": "312f36acac73b7c42d12b87d1f8399e883c43a7ddfd0487f665bbe7acd1a9ecf",
-    "fs/verify.py": "183181d267e9ff9f66e61a25238c042706e5f6d889c7e0d0240bf9f163d5ebac",
-    "run_all.py": "c9140524d3b66f52da0c6f96952d9b28d3a9373880a1724c7c1987ebc44e27a4",
-    "tests/test_audit_and_control.py": "d15795c40433daa1c3d4f0a899a412413ae43a18794543442d718fe323b6a392",
-    "tests/test_campaign_loop.py": "1dbd57f56def168704f837b18e205d50491cdcef008c48f710c0781edf8098d1",
-    "tests/test_formula_screen.py": "f2bfde78334dbc42589f4f00537e996822faccda9688799e2659694150cb1284",
-    "tests/test_model.py": "d1515b52ec347ba10dce42052afacb2b842245a9ed4cd6e466cdde8b67f087a8",
-    "tests/test_split_stability.py": "8ebb12e1a8f85fe60dd118b2ea420c2ae9917d1af658cd6a3ee53ad3e9eddac0"
+  "egfr_chembl203_ic50.csv": {
+   "bytes": 209026,
+   "sha256": "203d569ddacd41a0339c1ad146f86b67d0016d3b6a0216854663397ee7f0bb20"
+  },
+  "herg_chembl240_ic50.csv": {
+   "bytes": 240843,
+   "sha256": "710936a6fa3035a8d2058503d0c28c81f4499ba9048d7a9114dc1067e4a8e15d"
+  },
+  "carbon_fiber_single_filament.csv": {
+   "sha256": "3640fc6415e588da03ebf015fd426a5744c138b548303ad3423a25dac767a316",
+   "rows": 255,
+   "source": "https://doi.org/10.5281/zenodo.18435237",
+   "license": "CC-BY-4.0"
   }
+ },
+ "environment": {
+  "executable": "C:\\Users\\china\\miniconda3\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.13"
+ },
+ "package": {
+  "bench.py": "1bb57007e741698e6f191d046eee4080017215e7038d5e3f9a9638ebd53ef187",
+  "fs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "fs/acq.py": "6746b2cfac12f64498f2fa5670e3e00d48b743edb44778effd0dcdc5957580db",
+  "fs/audit.py": "79e814d47125abca9bb7cd5eca124570a739256a349068482b4bccb88bb00458",
+  "fs/campaign.py": "d93ae4f2384e1d7ae2abed57bf53fb9795599f111ee2a7bec52a0c86711c25fa",
+  "fs/data.py": "fcca849b6c44aeeeee83fb5d0b7bcbec6e1758b3cf93967165f5b4b353d22776",
+  "fs/feat.py": "cf4ce10d5a6464f96b1cb0130730c3f2e54f6bf97badad23d043f2f9fbbce460",
+  "fs/model.py": "312f36acac73b7c42d12b87d1f8399e883c43a7ddfd0487f665bbe7acd1a9ecf",
+  "fs/verify.py": "183181d267e9ff9f66e61a25238c042706e5f6d889c7e0d0240bf9f163d5ebac",
+  "run_all.py": "c9140524d3b66f52da0c6f96952d9b28d3a9373880a1724c7c1987ebc44e27a4",
+  "tests/test_audit_and_control.py": "d15795c40433daa1c3d4f0a899a412413ae43a18794543442d718fe323b6a392",
+  "tests/test_campaign_loop.py": "1dbd57f56def168704f837b18e205d50491cdcef008c48f710c0781edf8098d1",
+  "tests/test_formula_screen.py": "f2bfde78334dbc42589f4f00537e996822faccda9688799e2659694150cb1284",
+  "tests/test_model.py": "d1515b52ec347ba10dce42052afacb2b842245a9ed4cd6e466cdde8b67f087a8",
+  "tests/test_split_stability.py": "8ebb12e1a8f85fe60dd118b2ea420c2ae9917d1af658cd6a3ee53ad3e9eddac0"
+ },
+ "sources": {
+  "zenodo_18435237": {
+   "fiber_30mm_gauge_length_data_results.xlsx": "a8757cc4df92feb99f9247d4a539f8b89fec08d2aeedcc11eadeb10a2f64466c",
+   "fiber_50mm_gauge_length_data_results.xlsx": "4ad37ac939e90fe1111ac3b5a1c2c533537c462d5c19ec61dfbb0dc71e579852",
+   "fiber_70mm_gauge_length_data_results_with_compliance.xlsx": "257255ab7b243623e10efdd0e41ca31ded62bb02bf1d6e8059b53f05aa4dd592"
+  }
+ }
 }

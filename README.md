@@ -63,6 +63,16 @@ not by the strength level (R2 -0.06). Both claims are run against controls that
 destroy the effect; the case where the law fails to rank mixes is in the same
 document. `python -m fs.law_report` regenerates every number.
 
+
+A third question, in `docs/weibull.md` and `fs/weibull.py`, is a real engineering law
+rather than a table exercise: weakest-link says one Weibull modulus must govern BOTH
+the scatter within a gauge length and the scale shift across gauge lengths. On 255
+single-filament carbon-fibre tests the two disagree by a factor 1.55 (stress) and
+1.81 (force) -- and the shuffle-null, which contains no length effect at all,
+produces an even larger ratio. The honest reading is in the document: this design
+cannot support the claim either way, and the reusable product is the instrument plus
+the control. `python -m fs.weibull_report` regenerates every number.
+
 ## Reproducing
 
 Every number in `docs/report.md` comes from `results/sweep.jsonl`, which is
