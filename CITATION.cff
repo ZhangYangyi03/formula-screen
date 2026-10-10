@@ -1,0 +1,12 @@
+
+cff-version: 1.2.0
+title: "formula-screen: recipe screening where the verifier is cheap, fast and certain"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Yangyi
+version: 0.1.0
+date-released: "2026-10-10"
+license: MIT
+repository-code: "https://github.com/ZhangYangyi03/formula-screen"

@@ -1,0 +1,27 @@
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "formula-screen"
+version = "0.1.0"
+description = "Recipe screening on measured tables, with a held-out ranking check and a permutation control"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Yangyi Zhang"}]
+keywords = ["screening", "bayesian-optimisation", "experimental-design", "materials", "cheminformatics"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/ZhangYangyi03/formula-screen"
+
+[tool.setuptools]
+packages = ["fs"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
